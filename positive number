@@ -4,6 +4,9 @@ for i in range(0,n):
     e=int (input("Enter element of list "))
     li.append(e)
 print("Positive numbers in" ,li , "are: ")
+li2=[]
 for i in li:
     if (i >=0):
-       print (i, end= " " )
+        li2.append(i)
+        
+print(li2)
